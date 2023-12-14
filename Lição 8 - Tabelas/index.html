@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Lucas" content="Página de aprendizado">
+    <meta name="Descrição" content="Essa página web mostra tudo que estou aprendendo com o HTML">
+    <title>Main Page</title>
+    <link rel="icon" href="/Lição 8 - Tabelas/html-5.png" type="image/x-icon">
+    <link rel="stylesheet" href="/Lição 8 - Tabelas/main.css" type="text/css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Olá Mundo!</h1>
+        <nav aria-label="nav-primaria">
+            <ul>
+                <li>
+                    <a href="#html">Aprendendo HTML</a>
+                </li>
+                <li>
+                    <a href="#ferias">Planejando minhas férias</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <article id="html">
+            <h2>Estou pronto pra aprender HTML</h2>
+            <p>Essa é a minha primeira página Web</p>
+            <section>
+                <h3>HTML5</h3>
+                <img src="/Lição 8 - Tabelas/img/html_logo_300x300.png" alt="HTML5 Logo" title="Aprendendo HTML5"
+                    width="300" height="300">
+                <figure>
+                    <figcaption>
+                        Um exemplo de código HTML
+                        <p>
+                            <code>&lt;h1&gt;Hello world!&lt;h1/&gt;</code>
+                        </p>
+                    </figcaption>
+                </figure>
+            </section>
+            <section>
+                <h3>Minha rotina diária</h3>
+                <p>Deixe-me falar como:</p>
+                <ol>
+                    <li>... Eu aprendi mais sobre WEB hoje</li>
+                    <li>... Eu planejei minha rotina</li>
+                    <li>... Eu uso os recursos do <abbr title="Mozilla Developer Network">
+                            <a href="https://developer.mozilla.org/">MDN</a>
+                        </abbr></li>
+                </ol>
+                <aside>
+                    <details>
+                        <summary>Adivinhe o <mark>número de horas</mark> que codifico por dia?</summary>
+                        <p>Eu treino <time datetime="PTH3">3 horas</time> por dia, começando <date datetime="08:00">8
+                                horas da manhã</date>!</p>
+                    </details>
+                </aside>
+                <br>
+                <table>
+                    <caption><Strong>Minha agenda diária</Strong></caption>
+                    <thead>
+                        <tr>
+                            <th>&nbsp;</th>
+                            <th scope="col">Tempo</th>
+                            <th scope="col">Atividade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Manhã</th>
+                            <td>
+                                <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
+                            </td>
+                            <td>Codar</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Lanche</th>
+                            <td>
+                                <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
+                            </td>
+                            <td>Lanchar</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Pós meio dia</th>
+                            <td>
+                                <time datetime="12:00">12am</time>-<time datetime="17:00">5pm</time>
+                            </td>
+                            <td>Estudar para outros cursos</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Fim do dia</th>
+                            <td rowspan="2">Todos os outros tempos</td>
+                            <td>Tempo livre</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Noite</th>
+                            <td>Dormir</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">E é isso que eu faço todo dia, 5 dias da semana. Só comer, dormir, codar,
+                                ... e recarregar!</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+        </article>
+        <hr>
+        <article id="ferias">
+            <h2>Eu também estou planejando uma viagem</h2>
+            <p>Estou trabalhando muito e <em>preciso muito de férias.</em></p>
+            <p>Moro no <abbr title="Amazonas">AM</abbr>, e quero visitar a Ponta Negra.</p>
+            <section>
+                <h3>Lugares que eu gostaria de visitar</h3>
+                <ul>
+                    <li>
+                        <p>Ouvi coisas boas sobre o caribe</p>
+                        <figure>
+                            <img src="/Lição 8 - Tabelas/img/caribbean.jpg" alt="Praia do caribe"
+                                title="Quero visitar essa praia linda" width="400" height="225" loading="lazy">
+                            ><figcaption>
+                                Férias na praia do Caribe
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <p>Ouvi coisas boas sobre esses locais:</p>
+                        <address>
+                            Margaritaville Island Reserve Riviera<br>
+                            <figure>
+                                <img src="/Lição 8 - Tabelas/img/vacation.jpg" alt="Férias em Cancun"
+                                    title="É 5 da tarde em algum lugar" loading="lazy" width="400" height="267">
+                                <figcaption>
+                                    Imagem de férias no Caribe.
+                                </figcaption>
+                            </figure>
+                            Bahia Petempich Puerto Morales, Mexico<br>
+                            Colonia Morelos, Mexico 77580
+                        </address>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h3>Lugares que eu quero evitar</h3>
+                <dl>
+                    <dt>Etiópia</dt>
+                    <dd>Parece que é <stron>quente</stron> demais</dd>
+                    <dt>Irã</dt>
+                    <dd>Aqui também é quente pra caramba!!</dd>
+                </dl>
+            </section>
+        </article>
+    </main>
+    <hr>
+    <footer>
+        <p>
+            &lt;&lt;&lt; &copy; <a href="about.html">Lucas Andrade</a> &gt;&gt;&gt;
+        </p>
+        <p>
+            <a href="#">De volta ao topo</a>
+        </p>
+    </footer>
+</body>
+
+</html>

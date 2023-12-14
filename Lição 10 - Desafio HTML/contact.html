@@ -1,0 +1,94 @@
+<!DOCTYPE html5>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Lucas" content="Desafio HTML">
+    <meta name="descricao" content="Página de fale conosco">
+    <title>Home</title>
+    <link rel="stylesheet" href="/Lição 10 - Desafio HTML/css/style.css">
+    <link rel="icon" href="/Lição 10 - Desafio HTML/favicon.ico">
+</head>
+
+<body>
+
+    <header>
+        <h1 href="#">Fale conosco</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/Lição 10 - Desafio HTML/">Home</a>
+                </li>
+                <li>
+                    <a href="/Lição 10 - Desafio HTML/#sobre">Sobre nós</a>
+                </li>
+                <li>
+                    <a href="/Lição 10 - Desafio HTML/#menu">Nosso Menu</a>
+                </li>
+                <li>
+                    <a href="/Lição 10 - Desafio HTML/hours.html">Horário de funcionamento</a>
+                </li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="/Lição 10 - Desafio HTML/img/tacos_close_up_400x260.png" alt="Foto de tacos"
+                title="Taaacoooss eeeeuu queeeroooo!!!!">
+            <figcaption>Tacos do <abbr title="Little Taco Shop">LTS</abbr></figcaption>
+        </figure>
+    </header>
+
+    <hr>
+
+    <main>
+        <article>
+            <section>
+                <h2>Nosso Formulário de contato</h2>
+                <form action="https://httpbin.org/get" method="get">
+                    <fieldset>
+                        <legend>Fala com a gente</legend>
+                        <p>
+                            <label for="primeiroNome">Primeiro Nome</label>
+                            <input type="text" name="primeiroNome" id="primeiroNome" placeholder="Digite seu nome"
+                                required autofocus autocomplete="on">
+                        </p>
+                        <p>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Digite seu email" required
+                                autocomplete="on">
+                        </p>
+                        <p>
+                            <label for="">Sua mensagem</label>
+                            <br>
+                            <textarea name="mensagem" id="mensagem" cols="30" rows="10"
+                                placeholder="Deixe sua mensagem"></textarea>
+                        </p>
+                    </fieldset>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Resetar</button>
+                </form>
+            </section>
+            <section>
+                <h2>Nossa Localização</h2>
+                <address>
+                    555 Taco Temptation Lane, Suite T<br>
+                    Kansas City, MO 55555-5555<br>
+                    <br>
+                    Phone: 555-555-5555
+                </address>
+            </section>
+        </article>
+        <br>
+        <p>
+            <a href="#">De volta ao topo</a>
+        </p>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>Copyright &#169; The Little Taco Shop</p>
+    </footer>
+</body>
+
+
+</html>

@@ -1,0 +1,25 @@
+/* Define o tamanho da fonte para todo o documento HTML como 22 pixels */
+html {
+    font-size: 22px;
+}
+
+/* Define o plano de fundo do corpo da página como cinza escuro (#333) e a cor do texto como branco (whitesmoke) */
+body {
+    background-color: #333;
+    color: whitesmoke;
+}
+
+/* Define a cor dos links como azul claro (aliceblue) */
+a {
+    color: aliceblue;
+}
+
+/* Define a cor dos links visitados como cinza claro (lightgray) */
+a:visited {
+    color: lightgray;
+}
+
+/* Define a cor dos links quando estão sendo "hovered" como um tom mais claro de cinza (#eee) */
+a:hover {
+    color: #eee;
+}
